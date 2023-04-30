@@ -16,7 +16,7 @@ import AboutUsPage from './components/AboutUs';
 function App() {
   return (
     <Router>
-    <Header />
+    
     <Routes>
       <Route exact path="/" element={<Home/>} />
       <Route exact path="/products" element={<Products/>} />

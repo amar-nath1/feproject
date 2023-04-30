@@ -26,10 +26,10 @@ const SignupPage = () => {
   return (
     <div className={classes.container}>
       <div className={classes.left_panel}>
-        <img src={logo} alt="Logo" height='480vh'/>
+        <img src={logo} alt="Logo" height='580vh'/>
       </div>
       <div className={classes.right_panel}>
-        <Logo/>
+       <div style={{marginLeft:'4rem'}}> <Logo/></div>
         <h2 style={{fontWeight:400,fontSize:'24px',margin:'2rem'}}>Sign up to your Account</h2>
         <form className={classes.form}>
           
